@@ -29,6 +29,6 @@ Class Waiter bertanggung jawab untuk mengambil dan mengantarkan pesanan. Tugasny
 Mengambil pesanan dari meja dan mengirimkannya ke dapur.
 Mengantarkan pesanan yang sudah selesai ke meja yang tepat.
 Memastikan bahwa pesanan hanya diantarkan ketika sudah siap.
-Tanggung Jawab Berinteraksi dengan meja untuk mengambil dan mengantarkan pesanan
+//Berinteraksi dengan meja untuk mengambil dan mengantarkan pesanan
 
-Translated with DeepL.com (free version)
+
