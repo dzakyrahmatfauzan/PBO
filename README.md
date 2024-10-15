@@ -24,7 +24,8 @@ Deskripsi class
    - digunakan untuk melacak status table, baik itu ditempati pelanggan atau kosong. Ini memungkinkan sistem untuk memutuskan apakah meja tersedia untuk pelanggan baru atau tidak
      
 **7. Fungsi Main**
-     Secara keseluruhan, kegunaan utama dari fungsi main() adalah:
-        - Menyediakan menu pilihan input bagi pengguna
-        - Mengelola objek-objek yang terlibat dalam permainan (customer, table, kitchen, cucipiring).
-        - Memproses pesanan dan menjaga alur permainan berjalan dengan lancar berdasarkan input pengguna.
+
+Secara keseluruhan, kegunaan utama dari fungsi main() adalah:
+   - Menyediakan menu pilihan input bagi pengguna
+   - Mengelola objek-objek yang terlibat dalam permainan (customer, table, kitchen, cucipiring).
+   - Memproses pesanan dan menjaga alur permainan berjalan dengan lancar berdasarkan input pengguna.
