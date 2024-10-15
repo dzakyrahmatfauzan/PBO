@@ -4,31 +4,20 @@ Nama Kelompok :
 2. Ilham Fameidana (5223600063)
    
 Deskripsi class
-1. Order
-Class ini mengelola status pesanan pelanggan. Kelas ini menyediakan fungsionalitas untuk:
-Mengatur dan mendapatkan status pesanan saat ini (misalnya, “Belum Diambil”, “Di Dapur”, “Disajikan”).
-Memeriksa apakah pesanan sudah siap disajikan.
-// Menangani status pesanan dan menentukan kapan pesanan siap disajikan.
-
-3. Emosi
-Class ini mengelola emosi pelanggan berdasarkan berapa lama mereka menunggu.
-tingkat emosi  5/5 pelanggan pertama kali melakukan pemesanan.
-Mengurangi tingkat emosi saat pelanggan menunggu.
-Mengatur ulang emosi setelah pesanan disajikan.
-Tanggung jawab: Melacak dan memodifikasi emosi pelanggan berdasarkan waktu tunggu dan penyelesaian pesanan.
-
-4. Tabel
- Class ini merepresentasikan sebuah tabel
-Melacak status pesanan dan emosi pelanggan.
-fungsi untuk mengolah penerimaan dan penyajian pesanan, mengurangi emosi pelanggan saat mereka menunggu.
-//Mengelola pesanan pelanggan dan kondisi emosi mereka di meja tertentu.
-
-5. Pelayan
-Class Waiter bertanggung jawab untuk mengambil dan mengantarkan pesanan. Tugasnya
-
-Mengambil pesanan dari meja dan mengirimkannya ke dapur.
-Mengantarkan pesanan yang sudah selesai ke meja yang tepat.
-Memastikan bahwa pesanan hanya diantarkan ketika sudah siap.
-//Berinteraksi dengan meja untuk mengambil dan mengantarkan pesanan
-
-
+**1. Class Cucipiring**
+   - digunakan untuk mewakili konsep permainan atau sistem di mana pemain dapat mencuci piring dan mendapatkan skor sebagai hasilnya
+**2. Class Customer**
+   - digunakan untuk mewakili customer dalam sistem order. Fungsi dari class ini adalah untuk menyimpan informasi tentang pelanggan, meja tempat mereka duduk, dan pemesanan mereka.
+**3. Class GameManager**
+   - berfungsi sebagai pengendali utama dalam mengelola interaksi antara berbagai komponen dalam sistem restoran, seperti customer, table, kitchen, dan cuci piring. Dengan ini, sistem restoran dapat berjalan             terorganisir, mulai dari antrean customer, penempatan di table, pembuatan dan pengiriman pesanan, hingga pencucian piring setelah pelanggan selesai.
+**4. Class Kitchen**
+   - digunakan untuk menangani sistem antrian dan pemrosesan pesanan di kitchen, seperti menambahkan pesanan, memasak, dan menandai pesanan sebagai selesai. Fungsi-fungsi yang terdapat dalam class ini memfasilitasi      interaksi antara kitchen dengan sistem permainan lainnya, seperti pesanan dari pelanggan yang ditempatkan oleh GameManager
+**5. Class Order**
+   - digunakan untuk merepresentasikan pesanan dalam sistem. Pesanan ini melibatkan informasi mengenai ID pesanan, ID table tempat pesanan dibuat, item yang dipesan, serta status apakah pesanan telah selesai atau        belum
+**6. Class Table**
+   - digunakan untuk melacak status table, baik itu ditempati pelanggan atau kosong. Ini memungkinkan sistem untuk memutuskan apakah meja tersedia untuk pelanggan baru atau tidak
+**7. Fungsi Main**
+     Secara keseluruhan, kegunaan utama dari fungsi main() adalah:
+        - Menyediakan menu pilihan input bagi pengguna
+        - Mengelola objek-objek yang terlibat dalam permainan (customer, table, kitchen, cucipiring).
+        - Memproses pesanan dan menjaga alur permainan berjalan dengan lancar berdasarkan input pengguna.
